@@ -1,0 +1,151 @@
+.background-dark {
+    background: linear-gradient(300deg, #071952, #0B666A, #6cfdf8);
+    background-size: 10 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+
+
+.top-container {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    
+}
+h1 {  
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 0;
+    color: aliceblue;
+    font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #84f19c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  
+  
+
+}
+h2{ font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0;
+    color: aliceblue;
+    font-size: 40px;
+  background: -webkit-linear-gradient(#eee,#84f19c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:bold;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    color: #0cbd32;
+    margin-bottom: 10px;
+}
+.pic-two {
+    border: 4px solid #37cf58;
+    border-radius: 50%;
+    margin-bottom: 100px;
+}
+p { font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: light;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    color: rgb(126, 124, 124);
+    margin-bottom: 50px;
+
+}
+.mid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    align-content: center;
+    
+}
+hr {
+    border-top: 2px dashed #84f19c;
+    margin-bottom: 50px;
+    
+    
+}
+.aboutme-text {
+    display: flex;
+    margin-top: 50px;
+
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px 200px;
+    grid-template-rows: 100px 200px;
+    gap: 20px;
+
+}
+.container-3 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+h4 {
+    text-align: center;
+}
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    
+}
+.btn {
+    background-color: #37cf58;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+#footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    
+}
+#footer > div > div.item > p{
+    color: #37cf58;
+}
+
+
+
+
+
+
+
+
+
+
